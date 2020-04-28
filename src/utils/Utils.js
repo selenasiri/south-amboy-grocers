@@ -3,7 +3,7 @@ export const capital = word => {
 
   const store = []
   myArr.forEach(function(item) {
-    store.push(item.slice(0, 1).toUpperCase() + item.slice(1))
+    store.push(item.slice(0, 1).toUpperCase() + item.slice(1).toLowerCase())
   })
 
   return store.join(' ')

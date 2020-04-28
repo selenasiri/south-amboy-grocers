@@ -33,7 +33,7 @@ const Grocer = ({ grocer }) => {
         <h3>{name}</h3>
         <div className={styles.info}>
           <h4 style={{ marginBottom: '1rem' }}>
-            ${price}
+            ${price.toFixed(2)}
             {description && (
               <span style={{ marginLeft: '1rem' }}>
                 {description.description}
